@@ -6,7 +6,7 @@ from pytz import timezone
 app = Flask(__name__)
 
 # configurar o banco de dados
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///BancoProvaFinal.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///BdProva.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
