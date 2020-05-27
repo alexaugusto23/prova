@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 flask = "*"
 gunicorn = "*"
-flask-sqlalquemy = "*"
+flask-sqlalchemy = "*"
 pytz = "*"
 
 [requires]
